@@ -1,1 +1,53 @@
 @import url(variables.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER CSS*/
+
+header {
+    width: 100%;
+    height: 7vh;
+    background-color: var(--color-dark-purple);
+}
+.header__nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.header__div {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    color: var(--color-lavender-blush);
+    gap: 5px;
+}
+.header__logo {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    margin-left: 15px;
+    background: linear-gradient(var(--color-beaver), var(--color-barn-red));
+}
+.header__ul {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header__ul li {
+    list-style: none;
+}
+.header__ul li a {
+    font-family: "PlusJakartaSans-Bold";
+    text-decoration: none;
+    color: var(--color-lavender-blush);
+}
+
+/*MAIN FIRST PAGE (main__presentation) CSS*/
+
